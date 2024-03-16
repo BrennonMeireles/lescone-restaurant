@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    z-index: 1;
+}
+
+.nav-color{
+    display: flex;
+    justify-content: end;
+    padding-left: 50px;
+    align-items: center;
+    background-color: #2A2426;
+    width: 70%;
+    height: 150px;
+}
+
+nav > img {
+    width: 145px;
+    height: 90px;
+    z-index: 2;
+}
+
+.time-work{
+    display: flex;
+    gap: 50px;
+}
