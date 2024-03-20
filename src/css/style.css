@@ -84,3 +84,25 @@ article > div h1 {
     font-family: "Petrona", serif;
     font-weight: normal;
 }
+
+/* secton */
+
+section{
+    background-color: #FFCDA3;
+    width: 100%;
+    height: 800px;
+}
+
+.descubra {
+    display: flex;
+}
+
+.text-descubra {
+    padding: 60px;
+}
+
+.text-descubra > h1{
+    font-size: 60px;
+    font-family: "Petrona", serif;
+    font-weight: normal;
+}
