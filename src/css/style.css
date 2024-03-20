@@ -143,7 +143,7 @@ section{
 /* menu */
 
 menu > img {
-    padding: 80px;
+    padding: 70px;
 }
 
 .main-menu {
@@ -179,4 +179,27 @@ li{
     font-family: 'Aref Ruqaa', sans-serif;
     font-size: 24px;
     padding-bottom: 12px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 97.5%;
+    height: 70px;
+    color: #EDECE4;
+    font-size: 18px;
+    background-color: #2A2426;
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 10px #2A2426;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo-lescone {
+    width: 45px;
+    height: 26px;
 }
