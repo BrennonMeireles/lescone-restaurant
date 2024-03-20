@@ -1,37 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-nav{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 50px;
-    width: 100%;
-    border: 1px solid black;
-    color: white;
-    z-index: 1;
+body{
+    background-image: url(/src/img/foto\ princpal.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.nav-color{
+nav {
     display: flex;
-    justify-content: end;
-    padding-left: 50px;
+    justify-content: space-between;
     align-items: center;
-    background-color: #2A2426;
-    width: 70%;
-    height: 150px;
+
+    margin: 50px;
+    padding: 50px;
+
+    background-color: white;
+
 }
 
 nav > img {
-    width: 145px;
-    height: 90px;
-    z-index: 2;
+    width: 120px;
+    height: 80px;
 }
 
 .time-work{
     display: flex;
-    gap: 50px;
+    gap: 52px;
+
+    font-family: "Petrona", serif;
+    font-weight: bolder;
+
+    font-size: 22px;
+    line-height: 50px;
+
+
 }
