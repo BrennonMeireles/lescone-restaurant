@@ -17,14 +17,16 @@ nav {
     align-items: center;
 
     margin: 50px;
-    padding: 50px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 
     background-color: white;
 
 }
 
 nav > img {
-    width: 120px;
+    width: 100px;
     height: 80px;
 }
 
@@ -35,7 +37,7 @@ nav > img {
     font-family: "Petrona", serif;
     font-weight: bolder;
 
-    font-size: 22px;
+    font-size: 20px;
     line-height: 50px;
 
 
