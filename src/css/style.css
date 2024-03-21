@@ -13,6 +13,7 @@ body{
     background-image: url(/src/img/foto\ princpal.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100vw;
 }
 
 nav {
@@ -202,4 +203,61 @@ footer {
 .logo-lescone {
     width: 45px;
     height: 26px;
+}
+
+/* responsividade */
+
+@media  (max-width: 600px) {
+
+    nav {
+        height: 70px;
+        padding: 0;
+        margin: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .time-work{
+        gap: 20px;
+    
+        font-size: 8px;
+        line-height: 30px;
+    }
+
+    menu > img {
+        width: 300px;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    header > h1 {
+        font-size: 16px;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    .drinks-img {
+        width: 100px;
+    }
+    
+    .menu-img{
+        width: 100px;
+    }
+    
+    .sobremesa-img{
+        width: 100px;
+    }
+    .tomates {
+        width: 100px;
+        height: 900px;
+    }
 }
