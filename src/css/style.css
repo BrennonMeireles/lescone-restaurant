@@ -207,7 +207,7 @@ footer {
 
 /* responsividade */
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
 
     nav {
         height: 70px;
@@ -333,7 +333,117 @@ footer {
         width: 30px;
         height: 20px;
     }
+}
 
+@media (max-width: 1023px) {
+
+    body {
+        background-size: 140%; 
+        /* background-color: #000;  */
+    }
+
+    nav {
+        height: 70px;
+        width: 89%;
+        padding: 0;
+        margin: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .time-work{
+        gap: 20px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    menu > img {
+        width: 300px;
+        height: auto;
+    }
+
+    header {
+        height: 40vh;
+        padding-bottom: 160px;
+    }
+
+    header > h1 {
+        font-size: 30px;
+    }
+
+    article {
+        /* flex-direction: column; */
+        gap: 50px;
+    }
     
+    article > div {
+        position: relative;
+    }
+    
+    article > div h1 {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 40px;
+        text-align: center;
+    }
 
+    .drinks-img img{
+        width: 200px;
+        height: auto;
+    }
+    
+    .menu-img img{
+        width: 200px;
+        height: auto;
+    }
+    
+    .sobremesa-img img{
+        width: 200px;
+        height: auto;
+    }
+   
+    .text-descubra5{
+        padding: 50px;
+    }
+    
+    .text-descubra > h1{
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    section{
+        height: 420px;
+        width: 100vw;
+    }
+
+    .tomates {
+        width: 400px;
+        justify-content: center;
+    }
+
+    .ver-ofertas {
+        font-size: 15px;
+    }
+
+      menu > img {
+        padding: 50px;
+        width: 90%;
+    }
+    
+    footer {
+        width: 97.5%;
+        height: 50px;
+        font-size: 14px;
+    }
+    
+    .logo-lescone {
+        width: 30px;
+        height: 20px;
+    }
 }
