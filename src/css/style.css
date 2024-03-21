@@ -13,6 +13,7 @@ body{
     background-image: url(/src/img/foto\ princpal.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100vw;
 }
 
 nav {
@@ -79,7 +80,7 @@ article > div {
 article > div h1 {
     position: absolute;
     transform: translate(-50%, -50%);
-    top:50%;
+    top:  50%;
     left: 50%;
     
     font-size: 60px;
@@ -160,7 +161,7 @@ menu > img {
     font-weight: 500;
 
     padding-bottom: 26px;
-    padding-left: 50px;
+
 }
 
 .main-menu > p, li > p {
@@ -202,4 +203,137 @@ footer {
 .logo-lescone {
     width: 45px;
     height: 26px;
+}
+
+/* responsividade */
+
+@media  (max-width: 600px) {
+
+    nav {
+        height: 70px;
+        padding: 0;
+        margin: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .time-work{
+        gap: 20px;
+    
+        font-size: 8px;
+        line-height: 30px;
+    }
+
+    menu > img {
+        width: 300px;
+        height: auto;
+    }
+
+    header {
+        height: 10vh;
+        padding-bottom: 75px;
+    }
+
+    header > h1 {
+        font-size: 16px;
+    }
+
+    article {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    article > div {
+        position: relative;
+    }
+    
+    article > div h1 {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .drinks-img img{
+        width: 250px;
+        height: auto;
+    }
+    
+    .menu-img img{
+        width: 250px;
+        height: auto;
+    }
+    
+    .sobremesa-img img{
+        width: 250px;
+        height: auto;
+    }
+   
+    .text-descubra {
+        padding: 30px;
+    }
+    
+    .text-descubra > h1{
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    section{
+        height: 250px;
+        width: 100vw;
+    }
+
+    .tomates {
+        height: 250px;
+        width: 225px;
+        justify-content: center;
+    }
+
+    .ver-ofertas {
+        padding: 0.5em 1em;
+        margin: 0 0.3em 0.3em 0;
+        font-size: 10px;
+    }
+
+      menu > img {
+        padding: 12px;
+        width: 350px;
+    }
+    
+    .main-menu {
+        padding-bottom: 50px;
+    }
+    
+    .main-menu > h3 {
+        font-size: 30px;
+    }
+    
+    .main-menu > p, li > p {
+        font-size: 16px;
+    }
+    
+    li{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    footer {
+        width: 89.5%;
+        height: 50px;
+        font-size: 14px;
+    }
+    
+    .logo-lescone {
+        width: 30px;
+        height: 20px;
+    }
+
+    
+
 }
