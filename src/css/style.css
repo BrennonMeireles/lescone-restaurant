@@ -338,7 +338,6 @@ footer {
     
     body {
         background-size: 140%; 
-        /* background-color: #000;  */
     }
 
     nav {
@@ -367,7 +366,7 @@ footer {
     }
 
     header {
-        height: 40vh;
+        height: 60vh;
         padding-bottom: 160px;
     }
 
@@ -392,21 +391,11 @@ footer {
         text-align: center;
     }
 
-    .drinks-img img{
+    .drinks-img img, .menu-img img,.sobremesa-img img {
         width: 200px;
         height: auto;
     }
     
-    .menu-img img{
-        width: 200px;
-        height: auto;
-    }
-    
-    .sobremesa-img img{
-        width: 200px;
-        height: auto;
-    }
-   
     .text-descubra{
         padding: 50px;
     }
@@ -416,23 +405,22 @@ footer {
         padding-bottom: 50px;
     }
 
-    section{
-        height: 420px;
-        width: 100vw;
+    .descubra{
+        height: 50vh;
+        width: 100%;
     }
 
     .tomates {
-        width: 400px;
-        justify-content: center;
+        object-fit: cover;
     }
 
     .ver-ofertas {
         font-size: 15px;
     }
 
-      menu > img {
+    menu > img {
         padding: 50px;
-        width: 90%;
+        width: 100%;
     }
     
     footer {
