@@ -96,6 +96,16 @@ article > div h1 {
     height: auto;
 }
 
+.drinks-img,
+.menu-img,
+.sobremesa-img{
+    transition: transform 0.75s ease; /* Adiciona uma transição suave */
+}
+
+.drinks-img:hover, .menu-img:hover, .sobremesa-img:hover {
+    transform: scale(1.05);
+}
+
 /* secton */
 
 section {
@@ -396,16 +406,16 @@ footer {
         height: auto;
     }
     
-    .text-descubra{
+    .text-descubra {
         padding: 50px;
     }
     
-    .text-descubra > h1{
+    .text-descubra > h1 {
         font-size: 30px;
         padding-bottom: 50px;
     }
 
-    .descubra{
+    .descubra {
         height: 50vh;
         width: 100%;
     }
