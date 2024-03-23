@@ -2,20 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body{
-    background-image: url(/src/img/foto\ princpal.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+body {  
+    width: 100%;
 }
 
 nav {
@@ -23,20 +21,24 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    margin: 50px;
     padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 30px;
+    margin-bottom: 250px;
 
     background-color: white;
+
+    height: 120px;
+    width: 90%;
 }
 
 nav > img {
     width: 100px;
-    height: 80px;
+    height: 120px;
 }
 
-.time-work{
+.time-work {
     display: flex;
     gap: 52px;
 
@@ -51,12 +53,15 @@ nav > img {
 
 header {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    height: 70vh;
-    padding-bottom: 270px;
-    /* border: 1px solid blue; */
+
+    background-image: url('../img/fotoPrincpal.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    height: 120vh;
 }
 
 header > h1 {
@@ -83,13 +88,12 @@ article {
 article > div {
     position: relative;
     width: 100%;
-    
 }
 
 article > div h1 {
     position: absolute;
     transform: translate(-50%, -50%);
-    top:50%;
+    top:  50%;
     left: 50%;
     
     font-size: 60px;
@@ -98,30 +102,50 @@ article > div h1 {
     font-weight: normal;
 }
 
+.drinks-img img, .menu-img img, .sobremesa-img img{
+    width: 400px;
+    height: auto;
+}
+
+.drinks-img,
+.menu-img,
+.sobremesa-img{
+    transition: transform 0.75s ease; /* Adiciona uma transição suave */
+}
+
+.drinks-img:hover, .menu-img:hover, .sobremesa-img:hover {
+    transform: scale(1.05);
+}
+
 /* secton */
 
-section{
+section {
     background-color: #FFCDA3;
-    width: 100%;
-    height: 800px;
 }
 
 .descubra {
     display: flex;
+    width: 100%;
 }
-
+    
 .text-descubra {
+    flex-grow: 2;
     padding: 60px;
+    width: 50%;
 }
 
 .text-descubra > h1{
-    font-size: 60px;
+    font-size: 70px;
     font-family: "Petrona", serif;
-    font-weight: normal;
+    font-weight: 500;
     padding-bottom: 100px;
 }
 
 /* botao ver-ofertas */
+
+.descubra > .tomates {
+    width: 60%;
+}
 
 .ver-ofertas {
   display: inline-block;
@@ -133,7 +157,7 @@ section{
   
   text-decoration: none;
   font-family: "Petrona", serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
 
   color: #000;
@@ -143,14 +167,14 @@ section{
 
 .ver-ofertas:hover {
   color: white;
-  border: 0.1em solid white;
   background-color: #000;
 }
 
 /* menu */
 
 menu > img {
-    padding: 80px;
+    padding: 70px;
+    width: 100%;
 }
 
 .main-menu {
@@ -167,7 +191,6 @@ menu > img {
     font-weight: 500;
 
     padding-bottom: 26px;
-    padding-left: 50px;
 }
 
 .main-menu > p, li > p {
@@ -186,4 +209,246 @@ li{
     font-family: 'Aref Ruqaa', sans-serif;
     font-size: 24px;
     padding-bottom: 12px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 99%;
+    height: 100px;
+    color: #EDECE4;
+    font-size: 18px;
+    background-color: #2A2426;
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 10px #2A2426;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo-lescone {
+    width: 45px;
+    height: 26px;
+}
+
+/* responsividade */
+
+@media (max-width: 600px) {
+
+    nav {
+        height: 70px;
+        margin: 20px;
+        margin-bottom: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .time-work{
+        gap: 20px;
+    
+        font-size: 8px;
+        line-height: 30px;
+    }
+
+    menu > img {
+        width: 300px;
+        height: auto;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    header > h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    article {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    article > div {
+        position: relative;
+    }
+    
+    article > div h1 {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .descubra{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .drinks-img img, .menu-img img, .sobremesa-img img{
+        width: 250px;
+        height: auto;
+    }
+   
+    .text-descubra {
+        padding: 30px;
+    }
+    
+    .text-descubra > h1{
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .tomates {
+        object-fit: cover;
+    }
+
+    .ver-ofertas {
+        padding: 0.5em 1em;
+        margin: 0 0.3em 0.3em 0;
+        font-size: 10px;
+    }
+
+      menu > img {
+        padding: 12px;
+        width: 100%;
+    }
+    
+    .main-menu {
+        padding-bottom: 50px;
+    }
+    
+    .main-menu > h3 {
+        font-size: 30px;
+    }
+    
+    .main-menu > p, li > p {
+        font-size: 16px;
+    }
+    
+    li{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    footer {
+        width: 95%;
+        height: 50px;
+        font-size: 10px;
+    }
+    
+    .logo-lescone {
+        width: 30px;
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    body {
+        background-size: 140%; 
+    }
+
+    nav {
+        height: 70px;
+        width: 89%;
+        padding: 0;
+        margin: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .time-work{
+        gap: 20px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    menu > img {
+        width: 300px;
+        height: auto;
+    }
+
+    header {
+        height: 60vh;
+        padding-bottom: 160px;
+    }
+
+    header > h1 {
+        font-size: 30px;
+    }
+
+    article {
+        /* flex-direction: column; */
+        gap: 50px;
+    }
+    
+    article > div {
+        position: relative;
+    }
+    
+    article > div h1 {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .drinks-img img, .menu-img img,.sobremesa-img img {
+        width: 200px;
+        height: auto;
+    }
+    
+    .text-descubra {
+        padding: 50px;
+    }
+    
+    .text-descubra > h1 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .descubra {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .tomates {
+        object-fit: cover;
+    }
+
+    .ver-ofertas {
+        font-size: 15px;
+    }
+
+    menu > img {
+        padding: 50px;
+        width: 100%;
+    }
+    
+    footer {
+        width: 97.5%;
+        height: 50px;
+        font-size: 14px;
+    }
+    
+    .logo-lescone {
+        width: 30px;
+        height: 20px;
+    }
 }
