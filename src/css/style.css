@@ -271,6 +271,11 @@ footer {
         text-align: center;
     }
 
+    .descubra{
+        height: 50vh;
+        width: 100%;
+    }
+
     .drinks-img img, .menu-img img, .sobremesa-img img{
         width: 250px;
         height: auto;
@@ -285,15 +290,8 @@ footer {
         padding-bottom: 25px;
     }
 
-    section {
-        height: 250px;
-        width: 100vw;
-    }
-
     .tomates {
-        height: 100%;
-        width: 100%;
-        /* justify-content: center; */
+        object-fit: cover;
     }
 
     .ver-ofertas {
@@ -327,7 +325,7 @@ footer {
     footer {
         width: 95%;
         height: 50px;
-        font-size: 14px;
+        font-size: 10px;
     }
     
     .logo-lescone {
