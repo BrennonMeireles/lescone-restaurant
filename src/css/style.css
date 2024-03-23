@@ -115,12 +115,10 @@ section{
 
 .ver-ofertas {
   display: inline-block;
-  
   padding: 1em 2em;
   border: 0.1em solid #000000;
   margin: 0 0.3em 0.3em 0;
   background-color: rgb(0, 0, 0, 0);
-
   box-sizing: border-box;
   
   text-decoration: none;
@@ -130,7 +128,6 @@ section{
 
   color: #000;
   text-align: center;
-
   transition: all 0.2s;
 }
 
