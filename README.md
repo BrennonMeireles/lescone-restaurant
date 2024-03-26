@@ -11,7 +11,11 @@ utilizando o software de prototipagem Figma. Nesta versão, optou-se por uma est
 
 <br>
 
-![image](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/f3c266d3-d537-4d88-ba95-18964da98558)
+# Compração entre o site Antigo e o Novo
+
+<div align="center">
+  <img src="https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/12590971-4ba2-441c-8e4f-e7e8ec8e42f9" alt="image" width="800px">
+</div>
 
 <br>
 
