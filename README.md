@@ -6,8 +6,17 @@
 
 # ![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e) Le Scone Restaurant Releitura <br>
 
-Este projeto consiste em uma releitura do antigo site [Le Scone](https://le-scone-website.vercel.app/) , um restaurante italiano, como parte do curso de web design no SENAI. A proposta era melhorar tanto o design quanto as funcionalidades do site original, 
-utilizando o software de prototipagem Figma. Nesta versão, optou-se por uma estética mais moderna, com um header flutuante e foco em imagens do restaurante para tornar a experiência do usuário mais atrativa.
+Este projeto consiste em uma releitura do antigo site [Le Scone](https://le-scone-website.vercel.app/) , um restaurante gourmet Italiano, como parte do curso de web design no SENAI. A proposta inicial era aprimorar tanto o design quanto as funcionalidades do site original, visando proporcionar uma experiência ainda mais envolvente e intuitiva aos usuários.
+
+Utilizando o software de prototipagem Figma, foquei em um processo criativo que me permitiu explorar diversas ideias e conceitos para aprimorar o site. Decidi adotar uma abordagem mais contemporânea, destacando elementos visuais impactantes e focando em uma navegação fluida e intuitiva.
+
+Uma das principais mudanças implementadas foi a introdução de um header que da um design mais moderno, proporcionando uma experiência de navegação mais eficiente e dinâmica para os usuários.
+
+Além disso, investi significativamente na seleção e exibição de imagens de alta qualidade do restaurante e de seus pratos irresistíveis. Acredito que a apresentação visual desempenha um papel fundamental na atração dos clientes e na transmissão da atmosfera e do sabor autêntico da culinária italiana.
+
+No que diz respeito às funcionalidades, decidi segmentar o menu em três categorias distintas: "Drinks", "Menu" e "Sobremesas", cada uma acessível por meio de imagens destacadas na página inicial. Ao clicar em qualquer uma dessas imagens, os usuários são direcionados instantaneamente para a seção correspondente do menu, proporcionando uma experiência de navegação mais intuitiva e eficaz.
+
+Em resumo, esta releitura do site Le Scone representa não apenas uma atualização visual, mas também uma reimaginação completa da experiência do usuário. Estou confiante de que essas mudanças contribuirão significativamente para aprimorar a presença online do restaurante e encantar os visitantes com uma experiência gastronômica única e memorável.
 
 <br>
 
