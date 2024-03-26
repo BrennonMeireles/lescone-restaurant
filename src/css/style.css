@@ -86,16 +86,15 @@ article {
 }
 
 article > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
 }
 
 article > div h1 {
     position: absolute;
-    transform: translate(-50%, -50%);
-    top:  50%;
-    left: 50%;
-    
     font-size: 60px;
     color: white;
     font-family: "Petrona", serif;
