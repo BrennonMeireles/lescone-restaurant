@@ -1,5 +1,10 @@
+<div align="center">
+  <img src="https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/c079a7a3-76fe-4f94-b104-ec729a6f248e" alt="image" width="200px">
+</div>
 
-# Le Scone Restaurant Releitura<br>
+<br>
+
+# ![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e) Le Scone Restaurant Releitura ![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e)<br>
 
 Este projeto consiste em uma releitura do antigo site Lescone, um restaurante italiano, como parte do curso de web design. A proposta era melhorar tanto o design quanto as funcionalidades do site original, 
 utilizando o software de prototipagem Figma. Nesta versão, optou-se por uma estética mais moderna, com um header flutuante e foco em imagens do restaurante para tornar a experiência do usuário mais atrativa.
@@ -25,9 +30,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
 
 <br>
 
-# Capturas de Tela:<br>
-
-Inserir capturas de tela do site aqui.
+![image](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/f3c266d3-d537-4d88-ba95-18964da98558)
 
 <br>
 
@@ -51,15 +54,14 @@ A tipografia desempenha um papel crucial no design do site. As fontes utilizadas
 
 Você pode contribuir com este projeto seguindo os passos abaixo:
 
-Faça um fork do projeto.
-Crie sua branch de feature ´´´git checkout -b feature/MinhaFeature´´´.
-Faça commit de suas alterações (git commit -am 'Adicionar nova funcionalidade').
-Faça push para a branch (git push origin feature/MinhaFeature).
-Abra um pull request.
-Paleta de Cores:
-Inserir paleta de cores utilizada no projeto.<br>
+- Faça um fork do projeto.
+- Crie sua branch de feature     `git checkout -b feature/MinhaFeature`.
+- Faça commit de suas alterações `git commit -am 'Adicionar nova funcionalidade`.
+- Faça push para a branch        `git push origin feature/MinhaFeature`.
+- Abra um pull request.
 
-## Feedback<br>
+![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e)
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de fake@fake.com <br>
+
+
 
