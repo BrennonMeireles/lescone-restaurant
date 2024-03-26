@@ -6,7 +6,7 @@
 
 # ![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e) Le Scone Restaurant Releitura ![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e)<br>
 
-Este projeto consiste em uma releitura do antigo site Lescone, um restaurante italiano, como parte do curso de web design. A proposta era melhorar tanto o design quanto as funcionalidades do site original, 
+Este projeto consiste em uma releitura do antigo site Lescone, um restaurante italiano, como parte do curso de web design no SENAI. A proposta era melhorar tanto o design quanto as funcionalidades do site original, 
 utilizando o software de prototipagem Figma. Nesta versão, optou-se por uma estética mais moderna, com um header flutuante e foco em imagens do restaurante para tornar a experiência do usuário mais atrativa.
 
 <br>
