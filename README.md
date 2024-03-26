@@ -11,6 +11,10 @@ utilizando o software de prototipagem Figma. Nesta versão, optou-se por uma est
 
 <br>
 
+![image](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/f3c266d3-d537-4d88-ba95-18964da98558)
+
+<br>
+
 # Funcionalidades Implementadas:<br>
 
  - Header Flutuante: Um header flutuante foi adicionado para melhorar a navegação e proporcionar uma experiência mais intuitiva ao usuário.
@@ -18,6 +22,10 @@ utilizando o software de prototipagem Figma. Nesta versão, optou-se por uma est
  - Imagens Atrativas: Substituíram-se as fotos antigas por imagens de alta qualidade e mais atrativas dos pratos oferecidos no restaurante italiano, com o objetivo de despertar o interesse dos visitantes.
 
  - Menu Interativo: O menu foi dividido em três categorias: "Drinks", "Menu" e "Sobremesas". Ao clicar nas imagens do menu, o usuário é direcionado para a seção correspondente na página.
+
+<br>
+
+![image](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/c631888a-ead3-4fbb-989d-7e664f76e8f6)
 
 <br>
    
@@ -30,7 +38,9 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
 
 <br>
 
-![image](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/f3c266d3-d537-4d88-ba95-18964da98558)
+# 🎨 Protótipo no Figma
+
+Para visualizar o protótipo do Le-Scone desenvolvido no Figma, clique [aqui](https://www.figma.com/file/mzxdYu8Bf7jRWx0z5m8WrI/le-scone-releitura?type=design&node-id=0%3A1&mode=design&t=yjeQioYWqFMaoqK6-1).
 
 <br>
 
@@ -61,6 +71,8 @@ Você pode contribuir com este projeto seguindo os passos abaixo:
 - Abra um pull request.
 
 ![lescone-logo-footer](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/b3b7cb2b-07a2-4391-a14e-d20ee0afb03e)
+
+![menu foto](https://github.com/BrennonMeireles/lescone-restaurant/assets/141636246/e269b3bf-42a2-481f-90c5-888739266b89)
 
 
 
