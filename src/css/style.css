@@ -56,7 +56,7 @@ header {
     flex-direction: column;
     align-items: center;
 
-    background-image: url('../img/fotoPrincpal.svg');
+    background-image: url('../img/foto-principal.svg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -221,13 +221,13 @@ footer {
     justify-content: space-around;
     align-items: center;
     bottom: 0;
-    width: 99%;
     height: 100px;
     color: #EDECE4;
     font-size: 18px;
     background-color: #2A2426;
     border: 1px solid white;
     box-shadow: 0px 0px 0px 10px #2A2426;
+
     padding: 10px;
     margin: 10px;
 }
@@ -396,7 +396,6 @@ footer {
     }
 
     article {
-        /* flex-direction: column; */
         gap: 50px;
     }
     
