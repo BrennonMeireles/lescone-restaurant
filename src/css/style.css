@@ -103,6 +103,10 @@ article > div h1 {
 }
 
 .drinks-img img, .menu-img img, .sobremesa-img img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     width: 400px;
     height: auto;
 }
