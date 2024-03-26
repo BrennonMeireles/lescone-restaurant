@@ -53,7 +53,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
 
 # 🎨 Protótipo no Figma
 
-Para visualizar o protótipo do Le-Scone desenvolvido no Figma, clique [aqui](https://www.figma.com/file/mzxdYu8Bf7jRWx0z5m8WrI/le-scone-releitura?type=design&node-id=0%3A1&mode=design&t=yjeQioYWqFMaoqK6-1).
+Para visualizar o protótipo do Le-Scone desenvolvido no Figma, clique [aqui](https://www.figma.com/file/mzxdYu8Bf7jRWx0z5m8WrI/le-scone-releitura?type=design&node-id=0%3A1&mode=design&t=yjeQioYWqFMaoqK6-1).<br><br>
+Utilizei o Figma para criar um protótipo detalhado que retrata a evolução do Le Scone em três versões distintas: o Lescone antigo, a primeira versão e a versão definitiva que está atualmente no site. Esta ferramenta colaborativa permitiu que eu participasse ativamente do processo criativo, refinando cada aspecto do design e das funcionalidades propostas. Desde a concepção inicial até a versão final, o protótipo no Figma serviu como uma plataforma dinâmica e flexível, facilitando a iteração e o aprimoramento contínuo do projeto.
 
 <br>
 
