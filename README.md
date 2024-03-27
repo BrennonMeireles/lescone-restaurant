@@ -60,17 +60,53 @@ Utilizei o Figma para criar um protótipo detalhado que retrata a evolução do 
 
 # Tipografia:<br>
 
-A tipografia desempenha um papel crucial no design do site. As fontes utilizadas foram selecionadas com cuidado para garantir legibilidade e coesão visual em todo o site.
+A tipografia desempenha um papel crucial no design do site. As fontes utilizadas foram selecionadas com cuidado para garantir legibilidade e coesão visual em todo o site. <br><br>
+
+title-header <br>
+| Font    | Weight | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|---------|--------|------|-------------|----------------|-----------------|-------------------|----------|
+| Petrona | Medium | 60px | Automatic   |       0%       |      None       |        0px        | Original |
+
+title-menu <br>
+| Font       | Weight | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|------------|--------|------|-------------|----------------|-----------------|-------------------|----------|
+| Aref Ruqaa | Medium | 30px | Automatic   |       0%       |      None       |        0px        | Original |
+
+menu-item <br>
+| Font    | Weight | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|---------|--------|------|-------------|----------------|-----------------|-------------------|----------|
+| PT Mono | Regular | 24px | 24px |       0%       |      None       |        0px        | Original |
+
+ menu-price <br>
+| Font    | Weight | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|---------|--------|------|-------------|----------------|-----------------|-------------------|----------|
+| Aref Ruqaa | Regular | 24px | 35px   |       0%       |      None       |        0px        | Original |
+
+title-footer <br>
+| Font    | Weight | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|---------|--------|------|-------------|----------------|-----------------|-------------------|----------|
+| PT Mono | Regular | 18px | 30px   |       0%       |      None       |        0px        | Original |
+
+button-text<br>
+| Font    | Weight | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|---------|--------|------|-------------|----------------|-----------------|-------------------|----------|
+| Petrona | Light | 20px | 79px   |       0%       |      None       |        0px        | Original |
+
+header-text<br>
+| Font    | Weight   | Size | Line Height | Letter Spacing | Text Decoration | Paragraph Spacing |   Case   |
+|---------|----------|------|-------------|----------------|-----------------|-------------------|----------|
+| Petrona | SemiBold | 24px | 30px        |       0%       |      None       |        0px        | Original |
 <br>
 
 ## Documentação de cores<br>
 
-| Cor               | Hexadecimal                                                |
+| Cor               | Hexadecimal                                                      |
 | ----------------- | ---------------------------------------------------------------- |
-| Cor exemplo       | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Cor exemplo       | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Cor exemplo       | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Cor exemplo       | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| white             | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| salmon            | ![#FFCDA3](https://via.placeholder.com/10/FFCDA3?text=+) #FFCDA3 |
+| full-black        | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000|
+| black             | ![#2A2426](https://via.placeholder.com/10/2A2426?text=+) #2A2426 |
+| gold-price        | ![#2A2426](https://via.placeholder.com/10/988C77?text=+) #988C77 |
 
 <br>
 
